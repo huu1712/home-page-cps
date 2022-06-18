@@ -1,9 +1,9 @@
 export default {
 
-  target: 'static',
-  router: {
-    base: '/page-cps/dist/'
-  },
+   mode: 'static',
+   router: {
+      base: '/home-page-cps/dist'
+   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'clone-Web-Cps',
