@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#accessory, #brand {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.accessory--heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.accessory--text__all{
+  right: 15px;
+  bottom: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #111;
+}
+
+.accessory--list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory--item{
+  width: 110px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accessory--item:nth-child(1){
+  background-color: rgb(255, 163, 163);
+}
+
+.accessory--item:nth-child(2){
+  background-color: rgb(255, 184, 184);
+}
+
+.accessory--item:nth-child(3){
+  background-color: rgb(255, 148, 235);
+}
+
+.accessory--item:nth-child(4){
+  background-color: rgb(224, 179, 255);
+}
+
+.accessory--item:nth-child(5){
+  background-color: rgb(198, 216, 251);
+}
+
+.accessory--item:nth-child(6){
+  background-color: rgb(77, 145, 255);
+}
+
+.accessory--item:nth-child(7){
+  background-color: rgb(133, 255, 177);
+}
+
+.accessory--item:nth-child(8){
+  background-color: rgb(245, 214, 61);
+}
+
+.accessory--item:nth-child(9){
+  background-color: rgb(253, 163, 99);
+}
+
+.accessory--item:nth-child(10){
+  background-color: rgb(255, 102, 102);
+}
+
+.accessory--item:nth-child(11){
+  background-color: rgb(214, 214, 214);
+}
+
+.accessory--item a{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  min-height: 125px;
+  border-radius: 10px;
+}
+
+.accessory--item a p{
+  max-width: 114px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 0 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  word-break: break-word;
+  z-index: 1;
+}
+
+.brand--banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand--banner a{
+  display: inline-block;
+  width: calc(25% - 11.25px);
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 125.5px;
+}
+
+.brand--banner a img{
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
